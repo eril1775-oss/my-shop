@@ -13,8 +13,8 @@ export default function Banner() {
           alt="First slide"
           />
           <Carousel.Caption>
-            <h3>Hot Deals</h3>
-            <p>Save big on popular gadgets</p>
+            <h3>Make it to the sale</h3>
+            <p>We have prepared a lot of surprises for you</p>
           </Carousel.Caption>
         </Carousel.Item>
         <Carousel.Item>
@@ -24,8 +24,8 @@ export default function Banner() {
           alt="Second slide"
         />
           <Carousel.Caption>
-            <h3>New Arrivals</h3>
-            <p>Check the latest products</p>
+            <h3>Come with the whole family</h3>
+            <p>There are gifts for everyone</p>
           </Carousel.Caption>
         </Carousel.Item>
       </Carousel>
