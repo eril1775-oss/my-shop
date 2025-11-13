@@ -25,7 +25,7 @@ export default function ProductCard({ product, onAddToCart }: Props) {
           <Card.Text className="text-muted">{product.description}</Card.Text>
           <div className="mt-auto d-flex justify-content-between align-items-center">
             <strong>${product.price.toFixed(2)}</strong>
-            <Button variant="primary" onClick={() => onAddToCart?.(product)}>
+            <Button variant="primary" style={{background: 'green'}} onClick={() => onAddToCart?.(product)}>
               Add to cart
             </Button>
           </div>
